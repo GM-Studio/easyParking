@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f87ce813-d54a-464a-ab80-ab4adbb22459" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="easyParking" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\Program Files\Java\maven\apache-maven-3.6.1-bin\lib" />
+        <option name="mavenHome" value="D:/Program Files/Java/maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Program Files\Java\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eZA4J4p7Fl9VpvF5aTa5TTfsb9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IProject\easyParking\card\src\main\resources\mapper" />
+      <recent name="E:\IProject\easyParking\member\src\main\resources\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IProject\easyParking\ribbon\src\main\resources" />
+      <recent name="E:\IProject\easyParking\ribbon\src\main\resources\mapper" />
+      <recent name="E:\IProject\easyParking\ribbon\src\main\java" />
+      <recent name="E:\IProject\easyParking\eureka-server\src\main\resources" />
+      <recent name="E:\IProject\easyParking\eureka-server\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="parking" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gm.parking.mapper" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8089/bindmember/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8089/member/1" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RibbonApplication">
+    <configuration name="CardApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardApplication.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/MemberApplication.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberApplication#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/MemberApplication.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="card" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gm.parking.CardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gm.parking.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="parking.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gm.parking.MemberApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="parking.RibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.MemberApplication#2" />
+      <item itemvalue="HTTP Request.MemberApplication#1" />
+      <item itemvalue="HTTP Request.CardApplication#1" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.CardApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.MemberApplication (1)" />
+      <item itemvalue="Spring Boot.RibbonApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RibbonApplication" />
+        <item itemvalue="HTTP Request.CardApplication#1" />
+        <item itemvalue="HTTP Request.MemberApplication#1" />
+        <item itemvalue="HTTP Request.MemberApplication#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f87ce813-d54a-464a-ab80-ab4adbb22459" name="Default Changelist" comment="" />
+      <created>1594518548236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594518548236</updated>
+      <workItem from="1594518553458" duration="7179000" />
+      <workItem from="1594535192679" duration="5296000" />
+      <workItem from="1594540545727" duration="2147000" />
+      <workItem from="1594542739703" duration="4571000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Auto_Import" timestamp="1594519533794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1594519533794" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1594552728393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594552728393" />
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594552470733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594552470733" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1594536297283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594536297283" />
+    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594539173572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594539173572" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594540407245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594540407245" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594543177277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594543177277" />
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.1.center" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.1.left" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.1.right" timestamp="1594555607959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state x="600" y="137" key="NewModule_or_Project.wizard" timestamp="1594540343008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594540343008" />
+    <state x="258" y="172" width="1040" height="854" key="SettingsEditor" timestamp="1594541609346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="258" y="172" width="1040" height="854" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594541609346" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594540216168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594540216168" />
+    <state x="334" y="43" key="new project wizard" timestamp="1594552663359">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594552663359" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594536624813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594536624813" />
+    <state x="449" y="197" key="spring file set editor" timestamp="1594541604007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="197" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1594541604007" />
+  </component>
+</project>

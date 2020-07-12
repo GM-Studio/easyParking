@@ -1,0 +1,7 @@
+com\gm\parking\common\Resp.class
+com\gm\parking\MemberApplication.class
+com\gm\parking\mapper\MemberMapper.class
+com\gm\parking\entity\Member.class
+com\gm\parking\controller\MemberController.class
+com\gm\parking\service\impl\MemberServiceImpl.class
+com\gm\parking\service\MemberService.class

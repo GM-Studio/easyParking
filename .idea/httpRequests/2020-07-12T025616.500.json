@@ -1,0 +1,1 @@
+{"timestamp":"2020-07-12T06:56:16.185+0000","status":500,"error":"Internal Server Error","message":"Ambiguous handler methods mapped for '/member/1': {public java.lang.Object com.gm.parking.controller.CardController.bindMemberCard(int), public java.lang.Object com.gm.parking.controller.MemberController.memberById(java.lang.Integer)}","path":"/member/1"}

@@ -1,0 +1,28 @@
+GET http://localhost:8089/bindmember/1
+
+<> 2020-07-12T025810.200.json
+
+###
+
+GET http://localhost:8089/member/1
+
+<> 2020-07-12T025753.200.json
+
+###
+
+GET http://localhost:8089/member/1
+
+<> 2020-07-12T025616.500.json
+
+###
+
+GET http://localhost:8089/member/1
+
+<> 2020-07-12T104855.500.json
+
+###
+
+GET http://localhost:8089/member/{id}
+
+###
+

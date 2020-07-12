@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gm.parking.mapper.CardMapper">
+
+    <resultMap id="BaseResultMap" type="com.gm.parking.entity.Card">
+        <id column="id" property="card_id" />
+        <result column="create_time" property="card_create_time" />
+        <result column="update_time" property="card_update_time"/>
+        <result column="member_id" property="member_id"/>
+    </resultMap>
+
+    <select id="cardById" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select id,create_time,update_time
+        from card
+        where id = #{id}
+    </select>
+
+    <delete id="deleteCard" parameterType="java.lang.Integer">
+
+        delete from card
+        where id =#{id}
+    </delete>
+
+    <insert id="saveCard" parameterType="com.gm.parking.entity.Card">
+        insert into card (id, create_time,update_time,member_id)
+        values (#{card_id},#{card_create_time},#{card_update_time},#{member_id})
+    </insert>
+
+
+    <select id="cardList" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id,create_time,update_time,member_id
+        from card
+     </select>
+
+
+    <update id="updateCard" parameterType="com.gm.parking.entity.Card">
+        update card
+        <set>
+            <if test="card_update_time != null">
+                update_time = #{card_update_time},
+            </if>
+        </set>
+        where id = #{card_id}
+    </update>
+
+
+</mapper>
