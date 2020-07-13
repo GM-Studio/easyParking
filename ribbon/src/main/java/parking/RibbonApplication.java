@@ -1,6 +1,7 @@
 package parking;
 
 
+import brave.sampler.Sampler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -32,6 +33,12 @@ public class RibbonApplication {
 //  {
 //      return new RestTemplate();
 //  }
+
+  @Bean
+  public Sampler defaultSampler()
+  {
+    return Sampler.ALWAYS_SAMPLE;
+  }
 
 
 }

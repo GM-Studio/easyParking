@@ -8,8 +8,11 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import parking.entity.Member;
 import parking.service.impl.CardFeignService;
+import parking.service.impl.MemberService;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 //@FeignClient(value="card-service")
@@ -21,6 +24,8 @@ public class MemberController {
 
     @Autowired
     private CardFeignService cardFeignService;
+    @Autowired
+    private MemberService memberService;
 
 //    @Autowired
 //    private RestTemplate restTemplate;
@@ -30,9 +35,17 @@ public class MemberController {
     @ResponseBody
     public Object memberList()
     {
-        return cardFeignService.cardList();
+        Map resultmap = new HashMap();
+        resultmap.put("cardlist",cardFeignService.cardList());
+        resultmap.put("memberlist",memberService.memberList());
+
+        return JSON.toJSON(resultmap);
+//        return cardFeignService.cardList();
 //        return restTemplate.getForObject("http://card-service/card", Object.class);
+//        return memberService.memberList();
     }
+
+
 
 
 }

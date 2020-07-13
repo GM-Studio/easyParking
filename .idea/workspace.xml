@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f87ce813-d54a-464a-ab80-ab4adbb22459" name="Default Changelist" comment="" />
+    <list default="true" id="f87ce813-d54a-464a-ab80-ab4adbb22459" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/CardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/CardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/RibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/parking/RibbonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/parking/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/parking/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/parking/controller/MemberController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +35,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -41,6 +59,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1eZA4J4p7Fl9VpvF5aTa5TTfsb9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,13 +71,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -108,7 +128,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.RibbonApplication">
+  <component name="RunManager" selected="Spring Boot.CardApplication">
     <configuration name="CardApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardApplication.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -200,7 +220,8 @@
       <workItem from="1594518553458" duration="7179000" />
       <workItem from="1594535192679" duration="5296000" />
       <workItem from="1594540545727" duration="2147000" />
-      <workItem from="1594542739703" duration="4571000" />
+      <workItem from="1594542739703" duration="5108000" />
+      <workItem from="1594601067610" duration="3814000" />
     </task>
     <servers />
   </component>
@@ -212,10 +233,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1594519533794" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1594552728393">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1594556093258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594552728393" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594556093258" />
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594552470733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,46 +257,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594543177277" />
-    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1594605328449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
+    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1594605328449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
+    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1594605328449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
+    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1594605328449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.1.bottom" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom" timestamp="1594605328450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.1.center" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
+    <state width="1877" height="310" key="GridCell.Tab.1.center" timestamp="1594605328450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.1.left" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
+    <state width="1877" height="310" key="GridCell.Tab.1.left" timestamp="1594605328449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
-    <state width="1877" height="310" key="GridCell.Tab.1.right" timestamp="1594555607959">
+    <state width="1877" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
+    <state width="1877" height="310" key="GridCell.Tab.1.right" timestamp="1594605328450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594555607959" />
+    <state width="1877" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
     <state x="600" y="137" key="NewModule_or_Project.wizard" timestamp="1594540343008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594540343008" />
-    <state x="258" y="172" width="1040" height="854" key="SettingsEditor" timestamp="1594541609346">
+    <state x="124" y="82" width="1040" height="854" key="SettingsEditor" timestamp="1594601849395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="258" y="172" width="1040" height="854" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594541609346" />
+    <state x="124" y="82" width="1040" height="854" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594601849395" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594540216168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
