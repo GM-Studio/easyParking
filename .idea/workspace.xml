@@ -2,20 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f87ce813-d54a-464a-ab80-ab4adbb22459" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/config-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/card/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/CardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/CardApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/controller/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/entity/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/card/src/main/java/com/gm/parking/entity/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/card/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/target/classes/com/gm/parking/CardApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/card/target/classes/com/gm/parking/CardApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/target/classes/com/gm/parking/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/card/target/classes/com/gm/parking/controller/CardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/gm/parking/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/com/gm/parking/MemberApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/com/gm/parking/MemberApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/com/gm/parking/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/com/gm/parking/controller/MemberController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/RibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/parking/RibbonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/ribbon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/parking/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/parking/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/parking/service/impl/CardFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/parking/RibbonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/parking/RibbonApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ribbon/target/classes/parking/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/parking/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/parking/entity/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/parking/entity/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon/target/classes/parking/service/impl/CardFeignService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -89,13 +101,15 @@
       <recent name="E:\IProject\easyParking\member\src\main\resources\mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IProject\easyParking\config-server\src\main\resources" />
+      <recent name="E:\IProject\easyParking\config-server\src\main\java" />
       <recent name="E:\IProject\easyParking\ribbon\src\main\resources" />
       <recent name="E:\IProject\easyParking\ribbon\src\main\resources\mapper" />
       <recent name="E:\IProject\easyParking\ribbon\src\main\java" />
-      <recent name="E:\IProject\easyParking\eureka-server\src\main\resources" />
-      <recent name="E:\IProject\easyParking\eureka-server\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="parking.utils" />
+      <recent name="parking.entity" />
       <recent name="parking" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -105,6 +119,78 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:10064/member" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/html;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="id=99&amp;memberName=new-element" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:10064/member" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="id=99&amp;memberName=new-element" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:10064/member" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="text/html;charset=UTF-8" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="id=99&amp;memberName=new-element" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:10064/member" />
+          <option name="urlPath" value="" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="id=99&amp;memberName=new-element" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:10064/member" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="id=99&amp;memberName=new-element" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:8089/bindmember/1" />
@@ -128,19 +214,32 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.CardApplication">
+  <component name="RunManager" selected="Spring Boot.MemberApplication">
     <configuration name="CardApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardApplication.http" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="MemberApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/MemberApplication.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="MemberApplication#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/MemberApplication.http" index="2" runType="Run single request">
+    <configuration name="RibbonApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/RibbonApplication.http" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="card" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gm.parking.CardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="parking.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,21 +285,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.MemberApplication#2" />
       <item itemvalue="HTTP Request.MemberApplication#1" />
       <item itemvalue="HTTP Request.CardApplication#1" />
+      <item itemvalue="HTTP Request.RibbonApplication#1" />
       <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.CardApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.MemberApplication (1)" />
       <item itemvalue="Spring Boot.RibbonApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RibbonApplication" />
+        <item itemvalue="HTTP Request.RibbonApplication#1" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
         <item itemvalue="HTTP Request.CardApplication#1" />
         <item itemvalue="HTTP Request.MemberApplication#1" />
-        <item itemvalue="HTTP Request.MemberApplication#2" />
       </list>
     </recent_temporary>
   </component>
@@ -221,12 +322,41 @@
       <workItem from="1594535192679" duration="5296000" />
       <workItem from="1594540545727" duration="2147000" />
       <workItem from="1594542739703" duration="5108000" />
-      <workItem from="1594601067610" duration="3814000" />
+      <workItem from="1594601067610" duration="8902000" />
+      <workItem from="1594623110232" duration="1926000" />
+      <workItem from="1594636987549" duration="2979000" />
+      <workItem from="1594640087177" duration="1827000" />
+      <workItem from="1594687637250" duration="11839000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit &#10;&#10;add zipkin">
+      <created>1594605404128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594605404128</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit &#10;&#10;add zipkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit &#10;&#10;add zipkin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Auto_Import" timestamp="1594519533794">
@@ -237,81 +367,126 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594556093258" />
-    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594552470733">
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594695905683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594552470733" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1594536297283">
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594695905683" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1594697732295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594536297283" />
-    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594539173572">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594697732295" />
+    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594688221259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594539173572" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594540407245">
+    <state x="760" y="436" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594688221259" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594688217583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594540407245" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594688217583" />
+    <state x="333" y="29" key="CommitChangelistDialog2" timestamp="1594605402915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="333" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594605402915" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594543177277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594543177277" />
-    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1594605328449">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom" timestamp="1594703329186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
-    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1594605328449">
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329186" />
+    <state width="1877" height="310" key="GridCell.Tab.0.center" timestamp="1594703329185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
-    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1594605328449">
+    <state width="1877" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329185" />
+    <state width="1877" height="310" key="GridCell.Tab.0.left" timestamp="1594703329185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
-    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1594605328449">
+    <state width="1877" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329185" />
+    <state width="1877" height="310" key="GridCell.Tab.0.right" timestamp="1594703329185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
-    <state width="1877" height="310" key="GridCell.Tab.1.bottom" timestamp="1594605328450">
+    <state width="1877" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329185" />
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom" timestamp="1594703329188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
-    <state width="1877" height="310" key="GridCell.Tab.1.center" timestamp="1594605328450">
+    <state width="1877" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329188" />
+    <state width="1877" height="310" key="GridCell.Tab.1.center" timestamp="1594703329186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
-    <state width="1877" height="310" key="GridCell.Tab.1.left" timestamp="1594605328449">
+    <state width="1877" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329186" />
+    <state width="1877" height="310" key="GridCell.Tab.1.left" timestamp="1594703329186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328449" />
-    <state width="1877" height="310" key="GridCell.Tab.1.right" timestamp="1594605328450">
+    <state width="1877" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329186" />
+    <state width="1877" height="310" key="GridCell.Tab.1.right" timestamp="1594703329187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594605328450" />
+    <state width="1877" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594703329187" />
+    <state width="1877" height="325" key="GridCell.Tab.2.bottom" timestamp="1594689515182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594689515182" />
+    <state width="1877" height="325" key="GridCell.Tab.2.center" timestamp="1594689515182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594689515182" />
+    <state width="1877" height="325" key="GridCell.Tab.2.left" timestamp="1594689515182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594689515182" />
+    <state width="1877" height="325" key="GridCell.Tab.2.right" timestamp="1594689515182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594689515182" />
     <state x="600" y="137" key="NewModule_or_Project.wizard" timestamp="1594540343008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594540343008" />
-    <state x="124" y="82" width="1040" height="854" key="SettingsEditor" timestamp="1594601849395">
+    <state x="124" y="82" width="1040" height="854" key="SettingsEditor" timestamp="1594605696982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="124" y="82" width="1040" height="854" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594601849395" />
+    <state x="124" y="82" width="1040" height="854" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594605696982" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594605437197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594605437197" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1594540216168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594540216168" />
-    <state x="334" y="43" key="new project wizard" timestamp="1594552663359">
+    <state x="334" y="43" key="new project wizard" timestamp="1594605502272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594552663359" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594536624813">
+    <state x="334" y="43" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594605502272" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594687716882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594536624813" />
-    <state x="449" y="197" key="spring file set editor" timestamp="1594541604007">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594687716882" />
+    <state x="449" y="197" key="spring file set editor" timestamp="1594605694686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="449" y="197" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1594541604007" />
+    <state x="449" y="197" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1594605694686" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/com/gm/parking/controller/MemberController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/com/gm/parking/controller/MemberController.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/com/gm/parking/controller/MemberController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

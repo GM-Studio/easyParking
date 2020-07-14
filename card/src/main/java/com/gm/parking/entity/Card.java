@@ -22,6 +22,8 @@ public class Card implements Serializable {
 
     private int member_id;
 
+    public Card(){}
+
     @Override
     public String toString() {
         return "Card{" +

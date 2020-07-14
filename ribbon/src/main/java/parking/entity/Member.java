@@ -27,4 +27,10 @@ public class Member implements Serializable {
     public void setMemberName(String memberName) {
         this.memberName = memberName;
     }
+
+    public Member(int id, String memberName) {
+        this.id = id;
+        this.memberName = memberName;
+    }
+    public Member(){}
 }

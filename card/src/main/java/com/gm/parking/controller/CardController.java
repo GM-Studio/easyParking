@@ -75,9 +75,9 @@ public class CardController {
         return JSON.toJSON(resp);
     }
 
-    @RequestMapping(value = "/card",method = RequestMethod.POST)
+    @RequestMapping(value = "/card",method = RequestMethod.POST,consumes = "application/json;charset=utf8")
     @ResponseBody
-    public Object saveMember(Card card)
+    public Object saveMember(@RequestBody Card card)
     {
         boolean flag=cardService.saveCard(card);
         if(flag)

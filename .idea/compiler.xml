@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="ribbon" />
         <module name="member" />
+        <module name="config-server" />
       </profile>
     </annotationProcessing>
   </component>

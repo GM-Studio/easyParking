@@ -1,3 +1,54 @@
+POST http://localhost:10064/member
+Content-Type: application/html;charset=UTF-8
+
+id=99&memberName=new-element
+
+<> 2020-07-13T071116.415.json
+
+###
+
+POST http://localhost:10064/member
+Content-Type: application/json;charset=UTF-8
+
+id=99&memberName=new-element
+
+<> 2020-07-13T071107.400.json
+
+###
+
+POST http://localhost:10064/member
+Content-Type: text/html;charset=UTF-8
+
+id=99&memberName=new-element
+
+<> 2020-07-13T071044.415.json
+
+###
+
+POST http://localhost:10064/member
+
+id=99&memberName=new-element
+
+<> 2020-07-13T071008.415.json
+
+###
+
+POST http://localhost:10064/member
+Content-Type: application/x-www-form-urlencoded
+
+id=99&memberName=new-element
+
+<> 2020-07-13T070949.415.json
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&memberName=new-element
+
+###
+
 GET http://localhost:8089/bindmember/1
 
 <> 2020-07-12T025810.200.json

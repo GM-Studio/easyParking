@@ -6,6 +6,8 @@ import com.gm.parking.common.Resp;
 import com.gm.parking.entity.Member;
 import com.gm.parking.service.MemberService;
 import io.swagger.models.auth.In;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -20,6 +22,8 @@ import java.util.Map;
 @Controller
 public class MemberController {
 
+    private final Logger logger=LoggerFactory.getLogger(MemberController.class);
+
     @Autowired
     private MemberService memberService;
 
@@ -28,9 +32,11 @@ public class MemberController {
     @ResponseBody
     public Object memberById(@PathVariable("id") Integer id)
     {
+        logger.info("进入memberID");
         Member member=memberService.memberById(id);
         if(member!=null)
         {
+            logger.info("获取member数据"+member);
             Map<String,Object> result=new HashMap<>();
             result.put("data",member);
             Resp resp=new Resp("200",result,"获取member数据成功");
@@ -40,10 +46,11 @@ public class MemberController {
         return JSON.toJSON(resp);
     }
 
-    @RequestMapping(value = "/member/{id}",method = RequestMethod.DELETE)
+    @DeleteMapping(value = "/member/{id}")
     @ResponseBody
     public Object deleteMemberById(@PathVariable("id")int id)
     {
+        logger.info("进入memberDelete");
         boolean flag=memberService.deleteMemberById(id);
         if(flag)
         {
@@ -70,10 +77,12 @@ public class MemberController {
         return JSON.toJSON(resp);
     }
 
-    @RequestMapping(value = "/member",method = RequestMethod.POST)
+    @RequestMapping(value = "/member",method = RequestMethod.POST,consumes = "application/json;charset=utf8")
     @ResponseBody
-    public Object saveMember(Member member)
+    public Object saveMember(@RequestBody Member member)
     {
+        logger.info("进入memberPost");
+        logger.warn("member is id \t"+member.getId()+"member name is \t"+member.getMemberName());
         boolean flag=memberService.saveMember(member);
         if(flag)
         {
@@ -84,10 +93,11 @@ public class MemberController {
         return JSON.toJSON(resp);
     }
 
-    @RequestMapping(value = "/member",method = RequestMethod.PUT)
+    @PutMapping(value = "/member",consumes = "application/json;charset=utf8")
     @ResponseBody
-    public Object updateMember(Member member)
+    public Object updateMember(@RequestBody Member member)
     {
+        logger.warn("member id is \t"+member.getId()+"member name is \t"+member.getMemberName());
         boolean flag=memberService.updateMember(member);
         if(flag)
         {
