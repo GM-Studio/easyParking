@@ -65,6 +65,7 @@ public class MemberController {
     @ResponseBody
     public Object memberList()
     {
+        logger.info("第三个服务");
         List<Member> members=memberService.memberList();
         if(members!=null&&members.size()!=0)
         {
