@@ -5,8 +5,9 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 import parking.config.FeignLogConfiguration;
 import parking.entity.Member;
+import parking.feign.fallback.MemberFeignFallback;
 
-@FeignClient(value = "member-service")
+@FeignClient(value = "member-service",fallbackFactory = MemberFeignFallback.class)
 public interface MemberFeignClient {
 
 

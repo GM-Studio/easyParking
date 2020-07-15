@@ -11,6 +11,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -108,6 +110,40 @@ public class MemberController {
         Resp resp=new Resp("200",null,"更新失败");
         return JSON.toJSON(resp);
     }
+
+//    public Object findByIdFallbay(int id)
+//    {
+//        logger.info("请求memberById失败，进入回退方法");
+//        Member member=new Member(10,"sc");
+//        return JSON.toJSON(member);
+//    }
+//
+//    public Object findMemberList()
+//    {
+//        logger.info("请求memberList失败，进入回退方法");
+//        List result=new ArrayList();
+//        for(int i=0;i<10;i++)
+//        {
+//            Member member=new Member(10,"100");
+//            result.add(member);
+//        }
+//        return JSON.toJSON(result);
+//    }
+//
+//    public Object deleteMemberByIdFallback(int id)
+//    {
+//        logger.info("请求memberDelete失败，进入回退方法");
+//        String msg="no delete ,please rollback";
+//        return JSON.toJSON(msg);
+//    }
+//
+//    public Object updateMemberFallback()
+//    {
+//        logger.info("请求memberUpdate失败，进入回退方法");
+//        String msg="no delete ,please rollback";
+//        return JSON.toJSON(msg);
+//    }
+
 
 
 
